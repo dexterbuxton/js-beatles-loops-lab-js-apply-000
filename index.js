@@ -1,12 +1,12 @@
 // add solution here
 function theBeatlesPlay(musicians, instruments){
-  var myArray = [];
+  var concert = [];
   var length = musicians.length
   for (i=0; i < length, i++){
     let musician = musicians[i]
     let instrument = instruments[i]
     let action = musician + " plays " + instrument
-    myArray.push(action)
+    concert.push(action)
   }
 }
 
