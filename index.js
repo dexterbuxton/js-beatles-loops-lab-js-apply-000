@@ -28,19 +28,9 @@ function johnLennonFacts(facts){
 }
 
 function iLoveTheBeatles(number){
-  var emptyArray = [];
+  var messageArray = [];
   do {
-    emptyArray
-  }
-}
-
-var text = "";
-var i = 0;
-do {
-    text += "The number is " + i;
-    i++;
-}
-while (i < 5);
-  
-  
+    messageArray.push("I love the Beatles!")
+    number++;
+  } while (number < 15);
 }
