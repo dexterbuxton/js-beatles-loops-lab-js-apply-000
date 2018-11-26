@@ -1,5 +1,13 @@
 // add solution here
 function theBeatlesPlay(musicians, instruments){
   var myArray = [];
-  for musician in mu
+  var length = musicians.length
+  for ()
+}
+
+
+var len = cars.length;
+var text = "";
+for (; i < len; i++) { 
+    text += cars[i] + "<br>";
 }
