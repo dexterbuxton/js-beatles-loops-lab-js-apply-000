@@ -4,6 +4,7 @@ function theBeatlesPlay(musicians, instruments){
   let length = musicians.length;
   
   // Loop through each musician
+  var i;
   for (i=0; i < length; i++){
     let musician = musicians[i];
     let instrument = instruments[i];
