@@ -6,7 +6,7 @@ function theBeatlesPlay(musicians, instruments){
     let musician = musicians[i]
     let instrument = instruments[i]
     let action = musician + " plays " + instrument
-    myArray.ap
+    myArray.push(action)
   }
 }
 
