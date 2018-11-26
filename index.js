@@ -1,7 +1,7 @@
 // add solution here
 function theBeatlesPlay(musicians, instruments){
   var concert = [];
-  var length = musicians.length;
+  let length = musicians.length;
   
   // Loop through each musician
   for (i=0; i < length; i++){
@@ -13,18 +13,25 @@ function theBeatlesPlay(musicians, instruments){
   return concert;
 }
 
+
 function johnLennonFacts(facts){
   let length = facts.length;
   var excitingFacts = [];
+  
+  // Loop over each fact
   for (i=0; i < length; i++) {
     let newFact = facts[0] + "!!!";
     excitingFacts.push(newFact);
   }
+  
   return excitingFacts;
 }
 
 function iLoveTheBeatles(number){
-  var emptyArray
+  var emptyArray = [];
+  do {
+    emptyArray
+  }
 }
 
 var text = "";
