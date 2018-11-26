@@ -4,8 +4,9 @@ function theBeatlesPlay(musicians, instruments){
   var length = musicians.length
   for (i=0; i < length, i++){
     let musician = musicians[i]
-    var instrument = instruments[i]
-    let 
+    let instrument = instruments[i]
+    let action = musician + " plays " + instrument
+    myArray.ap
   }
 }
 
