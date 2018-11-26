@@ -1,5 +1,5 @@
 // add solution here
 function theBeatlesPlay(musicians, instruments){
-  var myArray = 
-  
+  var myArray = [];
+  for musician in mu
 }
