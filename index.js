@@ -4,8 +4,7 @@ function theBeatlesPlay(musicians, instruments){
   let length = musicians.length;
   
   // Loop through each musician
-  var i;
-  for (i=0; i < length; i++){
+  for (var i=0; i < length; i++){
     let musician = musicians[i];
     let instrument = instruments[i];
     let action = musician + " plays " + instrument;
@@ -20,8 +19,7 @@ function johnLennonFacts(facts){
   var excitingFacts = [];
   
   // Loop over each fact
-  var i;
-  for (i=0; i < length; i++) {
+  for (var i=0; i < length; i++) {
     let newFact = facts[0] + "!!!";
     excitingFacts.push(newFact);
   }
